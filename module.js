@@ -3,9 +3,9 @@ function lpad (string, length, char) {
   string = String(string);
   var i = -1;
   if (!char && char !== 0) char = ' ';
-  length = length - str.length;
+  length = length - string.length;
   while (++i < length) {
-    str = char + str;
+    string = char + string;
   }
-  return str;
+  return string;
 }
